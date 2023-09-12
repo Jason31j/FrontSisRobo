@@ -31,3 +31,34 @@ A continuación se enumeran los materiales utilizados en este proyecto:
 4. **CSS3**
    - Descripción: CSS3 es la última versión de la hoja de estilo en cascada (CSS), que se utiliza para aplicar estilos y diseño a páginas web. Ofrece muchas características avanzadas para la presentación web.
    - Documentación: [CSS3 - MDN Web Docs](https://developer.mozilla.org/es/docs/Web/CSS)
+
+<div style="text-align:center">
+   <img src="docs/herramientas.svg" alt="Texto alternativo" width="700" height="700" style="justify-content:center">
+</div>
+
+## Sketchs de las vistas
+
+### *Vista de Login*
+
+- #### Vista desde escritorio
+<div style="text-align:center">
+   <img src="docs/loginPc.svg" alt="Texto alternativo" width="700" height="700" style="justify-content:center">
+</div>
+
+- #### Vista desde movil
+<div style="text-align:center">
+   <img src="docs/loginCel.svg" alt="Texto alternativo" width="700" height="700" style="justify-content:center">
+</div>
+
+### *Vista del Dashboard*
+
+- #### Vista desde escritorio
+<div style="text-align:center">
+   <img src="docs/dashPc.svg" alt="Texto alternativo" width="700" height="700" style="justify-content:center">
+</div>
+
+- #### Vista desde movil
+<div style="text-align:center">
+   <img src="docs/dashCel.svg" alt="Texto alternativo" width="700" height="700" style="justify-content:center">
+</div>
+
