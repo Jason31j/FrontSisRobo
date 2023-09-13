@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./public/tailwind.css -o ./public/styles.css --watch",
-    "build": "npx tailwindcss -i ./public/tailwind.css -o ./public/styles.css"
+    "build": "npx tailwindcss -i ./public/tailwind.css -o ./public/styles.css",
+    "production": "npx uglifycss public/styles.css > dist/styles.min.css"
   },
   "author": "",
   "license": "ISC",
