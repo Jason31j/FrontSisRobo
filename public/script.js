@@ -2,6 +2,8 @@ function LoginHandler(e) {
 
     e.preventDefault()
 
+    console.log("Entro al boton")
+
     password = document.getElementById("password").value
     username = document.getElementById("username").value
 
@@ -11,7 +13,7 @@ function LoginHandler(e) {
         password: password
     }
 
-    url = ""
+    url = "http://127.0.0.1:8000/api/validate/"
     options = {
         method: 'POST',
         headers: {
@@ -26,9 +28,22 @@ function LoginHandler(e) {
             throw Error(data.status);
         }
         return data.json();
-    }).then(() => {
-        window.location.href = "./dashboard.html"
-    }).catch(e => {
-        console.log(e);
-    });
+    }).then((data) => {
+
+            if (data.length === 0) {
+                console.log("primer if")
+                return alert("Usuario o contraseña incorrectos")
+            }
+
+            if (data[0]["username"] == username && data[0]["password"] == password) {
+                console.log("segundo if")
+
+                return window.location.href = "./dashboard.html"
+            }
+
+        }).catch(e => {
+            console.log(e);
+        });
+
+    console.log("final")
 }
