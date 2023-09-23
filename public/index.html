@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="relative min-h-screen flex ">
+    <div class="relative min-h-screen flex">
         <div
             class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-white">
             <div
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div
-                class="md:flex md:items-center md:justify-center w-full sm:w-auto md:h-full w-2/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white">
+                class="md:flex md:items-center md:justify-center w-full sm:w-auto md:h-full xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white">
                 <div class="max-w-md w-full space-y-8">
                     <div class="text-center">
                         <h2 class="mt-6 text-3xl font-bold text-gray-900">
@@ -40,7 +40,7 @@
                             <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">Nombre de usuario</label>
                             <input
                                 class=" w-full text-base px-4 py-2 border-b border-gray-300 focus:outline-none rounded-2xl focus:border-indigo-500"
-                                type="" placeholder="Ingresa tu nombre de usuario">
+                                placeholder="Ingresa tu nombre de usuario" id="username">
                         </div>
                         <div class="mt-8 content-center">
                             <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">
@@ -48,7 +48,7 @@
                             </label>
                             <input
                                 class="w-full content-center text-base px-4 py-2 border-b rounded-2xl border-gray-300 focus:outline-none focus:border-indigo-500"
-                                type="password" placeholder="Ingresa tu contraseña">
+                                type="password" placeholder="Ingresa tu contraseña" id="password">
                         </div>
                         <div class="flex items-center justify-between">
                             <div class="flex items-center">
@@ -66,7 +66,8 @@
                         </div>
                         <div>
                             <button type=""
-                                class="w-full flex justify-center bg-gradient-to-r from-indigo-500 to-blue-600 text-gray-100 p-4  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500">
+                                class="w-full flex justify-center bg-gradient-to-r from-indigo-500 to-blue-600 text-gray-100 p-4  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500" 
+                                onclick="LoginHandler(event)">
                                 Sign in
                             </button>
                         </div>
@@ -75,6 +76,8 @@
             </div>
         </div>
     </div>
+    <div class="border"></div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
