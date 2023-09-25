@@ -62,3 +62,10 @@ A continuación se enumeran los materiales utilizados en este proyecto:
    <img src="docs/dashCel.svg" alt="Texto alternativo" width="700" height="700" style="justify-content:center">
 </div>
 
+## ChangeLog
+
+| versión | cambios                |
+|---------|------------------------|
+| 1.0     |<ul> <li>Configuracion del proyecto y sus dependencias</li> <li>Añadido el readme.md</li> <li>Añadido la página del Login</li> </ul> |
+| 2.0     |<ul> <li>Edición del readme para agregar diagramas e imágenes</li> <li>Edición del .gitignore</li> <li>Añadido el comando para minificar el css para releases</li> <li>Edición de los estilos en el index</li> <li>Refactorización del index</li> <li>Construcción de los estilos de tailwind para producción</li> </ul>|
+| 3.1.1   |<ul> <li>Añadida js para manejar la autenticación de usuarios</li> <li>Solución de bug de validación a través de petición a la API</li> <li>Añadido dashboard responsive</li> <li>Añadido función de autenticación de usuarios</li> <li>Solución de conflictos en los estilos</li> <li>Solución de bugs con el link del css en el index</li> <li>Añadido changelog en el readme</li> </ul> |
